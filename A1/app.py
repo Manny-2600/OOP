@@ -6,12 +6,13 @@ class Food:
  
 
 class Fruit(Food):
-    def __init__(self, name, calories, color):
-        super().__init__(name, calories)
+    def (self, name, calories):
+        super().(name, calories)
         
 class Vegetable(Food):
-    def __init__(self, name, calories):
-        super().__init__(name, calories)
+    def (self, name, calories, color):
+        super().(name, calories, color)
+        self.color() = color
        
 
    
