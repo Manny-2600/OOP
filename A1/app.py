@@ -28,5 +28,8 @@ if __name__ == "__main__":
     apple = Fruit("Apple", 95,)
     broccoli = Vegetable("Broccoli", 50)
 
+
     print(apple)
     print(broccoli)
+    apple.eat(self)
+    apple.digest(self, 5)
