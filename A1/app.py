@@ -13,6 +13,13 @@ class Vegetable(Food):
     def (self, name, calories, color):
         super().(name, calories, color)
         self.color() = color
+
+    def eat(self):
+        print(self)
+        
+
+    def digest(self, nutrients)
+    print(nutrients)
        
 
    
