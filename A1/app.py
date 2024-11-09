@@ -1,7 +1,14 @@
+
 class Food:
     def __init__(self, name, calories):
         self.name = name
         self.calories = calories
+     def eat(self):
+        print(self)
+        
+
+    def digest(self, nutrients)
+        print(nutrients)
 
  
 
@@ -14,12 +21,6 @@ class Vegetable(Food):
         super().(name, calories, color)
         self.color() = color
 
-    def eat(self):
-        print(self)
-        
-
-    def digest(self, nutrients)
-    print(nutrients)
        
 
    
